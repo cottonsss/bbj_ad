@@ -335,7 +335,8 @@ input::-webkit-input-placeholder{color:#303030; font-weight:normal; line-height:
 
 /*----------------- 실제페이지 적용 배너 스타일 -----------------*/
 /* 플로팅 배너 */
-.float_ad_bg{position:fixed; width:100%; height:auto; top:93px; left:0; background:#000; margin:0 auto;}
+.float_ad_bg{position:fixed; width:100%; height:auto; top:93px; left:0; margin:0 auto;}
+.float_ad_bg img{display:block; width:320px; height:100px; margin:0 auto;}
 .float_ad_bg .ad_prev200{position:relative; width:100%; height:100px; padding-left:90px; box-sizing:border-box;}
 .float_ad_bg .ad_prev200 .ad_img{float:left; position:absolute; width:90px; left:0; top:0; height:100%}
 .float_ad_bg .ad_prev200 .ad_img img{display:block; width:100%; height:100%; padding:0; object-fit:cover;}
@@ -354,6 +355,7 @@ input::-webkit-input-placeholder{color:#303030; font-weight:normal; line-height:
 }
 /* 메인리스트 배너 */
 .card_ad_bg{background:#000;}
+.card_ad_bg img{display:block; width:320px; height:50px; margin:0 auto;}
 .card_ad_bg .ad_prev100{position:relative; width:100%; height:50px; padding-left:77px; box-sizing:border-box;}
 .card_ad_bg .ad_prev100 .ad_img{float:left; position:absolute; left:0; top:0; width:77px; height:100%} /* 배너 이미지 크기설정 */
 .card_ad_bg .ad_prev100 .ad_img img{display:block; width:100%; height:100%; padding:0; object-fit:cover;}
@@ -374,7 +376,8 @@ input::-webkit-input-placeholder{color:#303030; font-weight:normal; line-height:
 .pop_ad_bg .btn_ad_cls{position:absolute; width:50px; height:50px; top:-50px; right:0;}
 .pop_ad_bg .btn_ad_cls a{display:block; width:100%; height:100%;}
 .pop_ad_bg .btn_ad_cls a img{position:absolute; width:35px; height:35px; top:15px; right:0;}
-.pop_ad_bg .ad_prev590{position:relative; width:275px; height:295px; padding:8px 10px; padding-top:140px; box-sizing:border-box; text-align:center; box-shadow:2px 2px 14px #404040}
+.pop_ad_bg .pop_590 img{position:relative; width:275px; height:285px; box-shadow:2px 2px 14px #404040;}
+.pop_ad_bg .ad_prev590{position:relative; width:275px; height:295px; padding:8px 10px; padding-top:140px; box-sizing:border-box; text-align:center; box-shadow:2px 2px 14px #404040;}
 .pop_ad_bg .ad_prev590 .ad_img{position:absolute; width:100%; height:120px; top:0; left:0; background:#f2f5fa;} /* 배너 이미지 영역 */
 .pop_ad_bg .ad_prev590 .ad_img img{width:119px; height:70px; margin:25px auto;} /* 배너 이미지 크기설정 */
 .pop_ad_bg .ad_prev590 h2{font-size:18px; letter-spacing:-1px; padding-top:2px; padding-bottom:13px; padding-left:0;} /* 배너 제목 */
