@@ -4,6 +4,7 @@ body{background:#fff;}
 .pd_70{padding-bottom:70px;}
 #header .btn_home{right:0;}
 .bg_gray{background-color:#eceff4;}
+.blind {position:absolute; width:1px; height:1px; margin:-1px; overflow:hidden; clip:rect(0 0 0 0);}
 input::-webkit-input-placeholder{color:#303030; font-weight:normal; line-height:17px;}
 
 .btn_white{display:inline-block; position:relative; width:60px; height:14px; padding:6px 0; border:1px solid #b8bdbf; border-radius:4px; background:#fff; color:#484848; font-size:14px; font-weight:700; text-decoration:none; text-align:center; line-height:14px; -webkit-tap-highlight-color:rgba(255,255,255,0); box-sizing:border-box;}
@@ -323,7 +324,65 @@ input::-webkit-input-placeholder{color:#303030; font-weight:normal; line-height:
 .pop_adlayer .bnr_pop .btn_pop{position:relative; width:100%; height:35px; margin-top:14px; background:url("http://image.bbjang.com/imgs/bbjang/bbj_ad/btn_ad_call2.png") center center no-repeat; background-size:130px auto;}
 /*-----------------------------------------------------------------------*/
 
+/*----------------- 광고하기준비중 pop -----------------*/
 .mt_153{margin-top:-153px;}
 .pop_contents{position:relative; width:100%; height:auto; padding:16px 0; font-size:15px; text-align:center; line-height:21px; letter-spacing:-0.5px; font-weight:400; color:#4d5356;}
 .pop_contents img{vertical-align:middle; padding-bottom:12px;}
 .pop_contents p{letter-spacing:-1px;}
+
+
+/*----------------- 실제페이지 적용 배너 스타일 -----------------*/
+/* 플로팅 배너 */
+.float_ad_bg{position:fixed; width:100%; height:auto; top:93px; left:0; background:#000; margin:0 auto;}
+.float_ad_bg .ad_prev200{position:relative; width:100%; height:100px; padding-left:90px; box-sizing:border-box;}
+.float_ad_bg .ad_prev200 .ad_img{float:left; position:absolute; width:90px; left:0; top:0; height:100%}
+.float_ad_bg .ad_prev200 .ad_img img{display:block; width:100%; height:100%; padding:0; object-fit:cover;}
+.float_ad_bg .ad_prev200 h2{font-size:16px; letter-spacing:-1px; padding-left:8px; padding-top:19px; padding-bottom:8px;} /* 배너 제목 */
+.float_ad_bg .ad_prev200 p{font-size:12.5px; font-weight:400; padding-left:8px; line-height:20px;} /* 배너 설명글 */
+.float_ad_bg .ad_prev200 .ad_btn{position:absolute; width:33px; height:100px; bottom:0; right:8px; box-sizing:border-box; background:url("http://image.bbjang.com/imgs/bbjang/bbj_ad/btn_ad_call.png") left 76% no-repeat; background-size:100%;} /* 버튼 위치 설정 */
+@media(min-width:360px){
+    .float_ad_bg .ad_prev200{padding-left:100px;}
+    .float_ad_bg .ad_prev200 .ad_img{width:100px;}
+    .float_ad_bg .ad_prev200 h2{font-size:18px; padding-left:12px; padding-top:16px; padding-bottom:8px;}
+    .float_ad_bg .ad_prev200 p{font-size:14px; line-height:21px; padding-left:12px;}
+    .float_ad_bg .ad_prev200 .ad_btn{right:12px;}
+}
+@media(min-width:375px){
+    .float_ad_bg .ad_prev200{width:375px; margin:0 auto;}
+}
+/* 메인리스트 배너 */
+.card_ad_bg{background:#000;}
+.card_ad_bg .ad_prev100{position:relative; width:100%; height:50px; padding-left:77px; box-sizing:border-box;}
+.card_ad_bg .ad_prev100 .ad_img{float:left; position:absolute; left:0; top:0; width:77px; height:100%} /* 배너 이미지 크기설정 */
+.card_ad_bg .ad_prev100 .ad_img img{display:block; width:100%; height:100%; padding:0; object-fit:cover;}
+.card_ad_bg .ad_prev100 h2{font-size:14.5px; letter-spacing:-1px; padding-left:8px; padding-top:9px; padding-bottom:3px;} /* 배너 제목 */
+.card_ad_bg .ad_prev100 p{font-size:12.5px; font-weight:400; padding-left:8px;} /* 배너 설명글 */
+.card_ad_bg .ad_prev100 .ad_btn{position:absolute; width:33px; height:50px; bottom:0; right:8px; box-sizing:border-box; background:url("http://image.bbjang.com/imgs/bbjang/bbj_ad/btn_ad_call.png") left 10px no-repeat; background-size:100%;} /* 버튼 위치 설정 */
+@media(min-width:360px){
+    .card_ad_bg .ad_prev100 h2{font-size:16px; padding-left:12px; padding-top:7px; padding-bottom:5px;}
+    .card_ad_bg .ad_prev100 p{font-size:13px; padding-left:12px;}
+    .card_ad_bg .ad_prev100 .ad_btn{right:12px;}
+}
+@media(min-width:375px){
+    .card_ad_bg .ad_prev100{width:375px; margin:0 auto;}
+}
+/* 팝업 배너스타일 */
+.pop_ad_bg{position:fixed; width:100%; height:100%; top:0; left:0; background:rgba(0,0,0,0.65); margin:0 auto; z-index:9999;}
+.pop_ad_bg .pop_590{position:relative; width:275px; height:295px; top:50%; left:50%; transform:translate(-50%,-50%);}
+.pop_ad_bg .btn_ad_cls{position:absolute; width:50px; height:50px; top:-50px; right:0;}
+.pop_ad_bg .btn_ad_cls a{display:block; width:100%; height:100%;}
+.pop_ad_bg .btn_ad_cls a img{position:absolute; width:35px; height:35px; top:15px; right:0;}
+.pop_ad_bg .ad_prev590{position:relative; width:275px; height:295px; padding:8px 10px; padding-top:140px; box-sizing:border-box; text-align:center; box-shadow:2px 2px 14px #404040}
+.pop_ad_bg .ad_prev590 .ad_img{position:absolute; width:100%; height:120px; top:0; left:0; background:#f2f5fa;} /* 배너 이미지 영역 */
+.pop_ad_bg .ad_prev590 .ad_img img{width:119px; height:70px; margin:25px auto;} /* 배너 이미지 크기설정 */
+.pop_ad_bg .ad_prev590 h2{font-size:18px; letter-spacing:-1px; padding-top:2px; padding-bottom:13px; padding-left:0;} /* 배너 제목 */
+.pop_ad_bg .ad_prev590 p{font-size:14px; font-weight:400; line-height:22px; padding-left:0;} /* 배너 설명글 */
+.pop_ad_bg .ad_prev590 .ad_btn{position:relative; width:157px; height:43px; right:0; margin:0 auto; margin-top:14px; background:url("http://image.bbjang.com/imgs/bbjang/bbj_ad/btn_ad_call2.png") left center no-repeat; background-size:157px 43px;} /* 버튼 위치 설정 */
+/* 팝업 배너스타일 */
+.ending_ad .pop_590{position:relative; width:275px; height:295px;}
+.ending_ad .ad_prev590{position:relative; width:275px; height:295px; padding:8px 10px; padding-top:140px; box-sizing:border-box; text-align:center;}
+.ending_ad .ad_prev590 .ad_img{position:absolute; width:98%; height:120px; top:1%; left:1%; background:#f2f5fa;} /* 배너 이미지 영역 */
+.ending_ad .ad_prev590 .ad_img img{width:119px; height:70px; margin:25px auto;} /* 배너 이미지 크기설정 */
+.ending_ad .ad_prev590 h2{font-size:18px; letter-spacing:-1px; padding-top:2px; padding-bottom:13px; padding-left:0;} /* 배너 제목 */
+.ending_ad .ad_prev590 p{font-size:14px; font-weight:400; line-height:22px; padding-left:0;} /* 배너 설명글 */
+.ending_ad .ad_prev590 .ad_btn{position:relative; width:157px; height:43px; right:0; margin:0 auto; margin-top:14px; background:url("http://image.bbjang.com/imgs/bbjang/bbj_ad/btn_ad_call2.png") left center no-repeat; background-size:157px 43px;} /* 버튼 위치 설정 */
