@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 body{background:#fff;}
+.wrap_fix{position:fixed!important;}
 .pd_70{padding-bottom:70px; box-sizing:border-box;}
 #header .btn_home{right:0;}
 .bg_gray{background-color:#eceff4;}
