@@ -5,7 +5,7 @@ body{background:#fff;}
 #header .btn_home{right:0;}
 .bg_gray{background-color:#eceff4;}
 .blind {position:absolute; width:1px; height:1px; margin:-1px; overflow:hidden; clip:rect(0 0 0 0);}
-input::-webkit-input-placeholder{color:#303030; font-weight:normal; line-height:17px;}
+input::-webkit-input-placeholder{color:#303030; font-weight:normal; line-height:19px;}
 
 .btn_white{display:inline-block; position:relative; width:60px; height:14px; padding:6px 0; border:1px solid #b8bdbf; border-radius:4px; background:#fff; color:#484848; font-size:14px; font-weight:700; text-decoration:none; text-align:center; line-height:14px; -webkit-tap-highlight-color:rgba(255,255,255,0); box-sizing:border-box;}
 .btn_white:active{position:relative; top:1px;}
@@ -82,6 +82,7 @@ input::-webkit-input-placeholder{color:#303030; font-weight:normal; line-height:
 .ad_contents li:last-of-type{margin-bottom:0;}
 .ad_contents li .box_loca_info{position:relative; width:100%; height:auto; padding:10px; box-sizing:border-box; border:1px solid #d9deea; border-radius:3px; background:#fff; box-shadow:1px 1px 2px #dde2ea;}
 .ad_contents li .box_loca_info h5{padding:4px 0 12px 0; font-size:15px; font-weight:700; color:#000; letter-spacing:-1px;}
+.ad_contents li .box_loca_info h5 span{color:#6b6b6b;}
 .ad_contents li .box_loca_info p{font-size:12px; font-weight:400; color:#535252; letter-spacing:-1;}
 .ad_contents li .box_loca_info .btn_ad_info{position:absolute; width:60px; height:auto; top:8px; right:8px;}
 .ad_contents li .box_loca_info .btn_ad_info a{display:block; width:100%; height:100%; padding:6px 0 5px 0; font-size:13px; letter-spacing:-1px;}
@@ -313,7 +314,7 @@ input::-webkit-input-placeholder{color:#303030; font-weight:normal; line-height:
 
 .pop_adlayer .bnr_float .thumb_float{position:absolute; top:0; left:0; width:81px; height:100%;}
 .pop_adlayer .bnr_float .thumb_float img{display:block; width:100%; height:100%; object-fit:cover;}
-.pop_adlayer .bnr_float h3{width:100%; padding:14px 30px 10px 88px; box-sizing:border-box; font-size:11.5px; letter-spacing:-1px;}
+.pop_adlayer .bnr_float h3{width:100%; padding:14px 30px 10px 88px; box-sizing:border-box; font-size:11px; letter-spacing:-1px;}
 .pop_adlayer .bnr_float p{width:100%; line-height:18px; padding:0px 30px 0px 88px; box-sizing:border-box; font-size:10px; letter-spacing:-1px; font-weight:400;}
 .pop_adlayer .bnr_float .btn_float{position:absolute; top:0; right:0; width:27px; height:100%; background:url("http://image.bbjang.com/imgs/bbjang/bbj_ad/btn_ad_call.png") left 42px no-repeat; background-size:24px auto;}
 
