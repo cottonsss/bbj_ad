@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>방부장</title>
+<link href="css/bb_font.css" rel="stylesheet" type="text/css">
+<link href="css/bb_default.css" rel="stylesheet" type="text/css">
+<link href="css/bb_ad.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg_gray">
+<div id="wrap">
+	<!-- 공통 헤더 -->
+	<div id="header" class="ht_45 bg_blue header_r">
+		<div class="btn_back">
+			<a href="#">뒤로</a>
+		</div>
+		<h1 class="header_txt font_b">광고등록</h1>
+	</div>
+	<!-- // 공통 헤더 -->
+	<div id="container">
+        <div class="step_info">
+            <ul>
+                <li>
+                    <div class="step_circle step_ing">1</div>
+                </li>
+                <li>
+                    <div class="step_line"><span class="blind">line</span></div>
+                </li>
+                <li>
+                    <div class="step_circle step_ing">2</div>
+                </li>
+                <li>
+                    <div class="step_line"><span class="blind">line</span></div>
+                </li>
+                <li>
+                    <div class="step_circle">3</div>
+                </li>
+            </ul>
+            <p>
+                광고주님의 광고 소재를 등록해주세요.<br>
+                광고 소재가 있으시면 직접등록을,<br>
+                광고 소재가 없으시면 기본형태 등록을 해주세요.
+            </p>
+        </div>
+        <div class="ad_sett_box">
+            <div class="tab_bg"><span></span></div>
+            <ul>
+                <li class="tab_off"><a href="#">광고주 직접 등록</a></li>
+                <li class="tab_on"><a href="#">기본형태 등록</a></li>
+            </ul>
+            <div class="form_ad">
+                <div class="ad_style">
+                    <p class="tit_st1">1) 메인 이미지 등록 (170*100)</p>
+                    <div class="thumb_main_img">
+                        <img src="http://image.bbjang.com/imgs/bbjang/bbj_ad/ex_thumb1.jpg">
+                        <div class="btn_prev_dlt"><a href="#"><img src="http://image.bbjang.com/imgs/bbjang/bbj_ad/ico_whatad_clse.png"></a></div>
+                    </div>
+                    <div class="btn_upload_img"><a href="#" class="btn_white">이미지등록</a></div>
+                </div>
+                <div class="ad_style">
+                    <p class="tit_st1">2) 광고문구 등록</p>
+                    <div class="input_ment">
+                        <div class="ment1">
+                            <span>제목</span>
+                            <div class="ment_box"><input type="text" placeholder="제목을 입력하세요"></div>
+                        </div>
+                        <div class="ment1">
+                            <span>설명1</span>
+                            <div class="ment_box"><input type="text" placeholder="설명1을 입력하세요"></div>
+                        </div>
+                        <div class="ment1">
+                            <span>설명2</span>
+                            <div class="ment_box"><input type="text" placeholder="설명2을 입력하세요"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ad_style">
+                    <p class="tit_st1">3) 광고소재 미리보기</p>
+                    <div class="form_st1">
+                        <span>- 320*50<span class="size_s">(메인리스트 배너)</span></span>
+                        <div class="btn_slct_color"><a href="#" class="btn_white">배경색 선택</a></div>
+                        <div class="btn_view_prev"><a href="#" class="btn_white">미리보기</a></div>
+                        <!-- 배경색선택 레이어팝업 -->
+                        <div class="bg_layer box_shadow1" style="display: block;">
+                            <div class="layer_tit">
+                                배경색 선택<div class="bg_clse"></div>
+                            </div>
+                            <div class="bg_slct">
+                                <ul>
+                                   <li>
+                                       <input type="radio" name="bg_slct00" id="bg_radio01" class="bg_radio" checked="checked"/>
+                                       <label for="bg_radio01" class="bg_label c_white"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct00" id="bg_radio02" class="bg_radio" />
+                                       <label for="bg_radio02" name="bg_slct" class="bg_label c_green"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct00" id="bg_radio03" class="bg_radio" />
+                                       <label for="bg_radio03" class="bg_label c_yellow"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct00" id="bg_radio04" class="bg_radio" />
+                                       <label for="bg_radio04" class="bg_label c_pink"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct00" id="bg_radio05" class="bg_radio" />
+                                       <label for="bg_radio05" class="bg_label c_red"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct00" id="bg_radio06" class="bg_radio" />
+                                       <label for="bg_radio06" class="bg_label c_purple"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct00" id="bg_radio07" class="bg_radio" />
+                                       <label for="bg_radio07" class="bg_label c_blue"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct00" id="bg_radio08" class="bg_radio" />
+                                       <label for="bg_radio08" class="bg_label c_black"></label>
+                                   </li>
+                               </ul>
+                            </div>
+                        </div>
+                        <!-- 배경색선택 레이어팝업 //-->
+                        <div class="ad_prev100 c_green">
+                            <div class="ad_img"><img src="http://image.bbjang.com/imgs/bbjang/bbj_ad/ex_thumb1.jpg"></div>
+                            <h2>맛나요족발맛나요족발맛나요족</h2>
+                            <p>맛있는족발맛있는족발맛있는족발맛</p>
+                            <div class="ad_btn"><span class="blind">연결버튼</span></div>
+                        </div>
+                    </div>
+                    <div class="form_st1">
+                        <span>- 320*100<span class="size_s">(플로팅실행 배너)</span></span>
+                        <div class="btn_slct_color"><a href="#" class="btn_white">배경색 선택</a></div>
+                        <div class="btn_view_prev"><a href="#" class="btn_white">미리보기</a></div>
+                        <!-- 배경색선택 레이어팝업 -->
+                        <div class="bg_layer box_shadow1" style="display:none;">
+                            <div class="layer_tit">
+                                배경색 선택<div class="bg_clse"></div>
+                            </div>
+                            <div class="bg_slct">
+                                <ul>
+                                   <li>
+                                       <input type="radio" name="bg_slct01" id="bg_radio11" class="bg_radio" checked="checked"/>
+                                       <label for="bg_radio11" class="bg_label c_white"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct01" id="bg_radio12" class="bg_radio" />
+                                       <label for="bg_radio12" name="bg_slct" class="bg_label c_green"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct01" id="bg_radio13" class="bg_radio" />
+                                       <label for="bg_radio13" class="bg_label c_yellow"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct01" id="bg_radio14" class="bg_radio" />
+                                       <label for="bg_radio14" class="bg_label c_pink"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct01" id="bg_radio15" class="bg_radio" />
+                                       <label for="bg_radio15" class="bg_label c_red"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct01" id="bg_radio16" class="bg_radio" />
+                                       <label for="bg_radio16" class="bg_label c_purple"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct01" id="bg_radio17" class="bg_radio" />
+                                       <label for="bg_radio17" class="bg_label c_blue"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct01" id="bg_radio18" class="bg_radio" />
+                                       <label for="bg_radio18" class="bg_label c_black"></label>
+                                   </li>
+                               </ul>
+                            </div>
+                        </div>
+                        <!-- 배경색선택 레이어팝업 //-->
+                        <div class="ad_prev200 c_red">
+                            <div class="ad_img"><img src="http://image.bbjang.com/imgs/bbjang/bbj_ad/ex_thumb1.jpg"></div>
+                            <h2>맛나요족발맛나요족발맛나요족</h2>
+                            <p>맛있는족발맛있는족발맛있는족발맛</p>
+                            <p>맛있는족발맛있는족발맛있는족발맛 </p>
+                            <div class="ad_btn"><span class="blind">연결버튼</span></div>
+                        </div>
+                    </div>
+                    <div class="form_st1">
+                        <span class="st2">- 275*295<span class="size_s">(상세/검색결과/사진뷰어/엔딩 팝업 공통)</span></span>
+                        <div class="btn_slct_color loca_st2"><a href="#" class="btn_white">배경색 선택</a></div>
+                        <div class="btn_view_prev loca_st2"><a href="#" class="btn_white">미리보기</a></div>
+                        <!-- 배경색선택 레이어팝업 -->
+                        <div class="bg_layer box_shadow1" style="display:none;">
+                            <div class="layer_tit">
+                                배경색 선택<div class="bg_clse"></div>
+                            </div>
+                            <div class="bg_slct">
+                                <ul>
+                                   <li>
+                                       <input type="radio" name="bg_slct02" id="bg_radio21" class="bg_radio" checked="checked"/>
+                                       <label for="bg_radio21" class="bg_label c_white"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct02" id="bg_radio22" class="bg_radio" />
+                                       <label for="bg_radio22" name="bg_slct" class="bg_label c_green"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct02" id="bg_radio23" class="bg_radio" />
+                                       <label for="bg_radio23" class="bg_label c_yellow"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct02" id="bg_radio24" class="bg_radio" />
+                                       <label for="bg_radio24" class="bg_label c_pink"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct02" id="bg_radio25" class="bg_radio" />
+                                       <label for="bg_radio25" class="bg_label c_red"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct02" id="bg_radio26" class="bg_radio" />
+                                       <label for="bg_radio26" class="bg_label c_purple"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct02" id="bg_radio27" class="bg_radio" />
+                                       <label for="bg_radio27" class="bg_label c_blue"></label>
+                                   </li>
+                                   <li>
+                                       <input type="radio" name="bg_slct02" id="bg_radio28" class="bg_radio" />
+                                       <label for="bg_radio28" class="bg_label c_black"></label>
+                                   </li>
+                               </ul>
+                            </div>
+                        </div>
+                        <!-- 배경색선택 레이어팝업 //-->
+                        <div class="ad_prev590 c_black">
+                            <div class="ad_img"><img src="http://image.bbjang.com/imgs/bbjang/bbj_ad/ex_thumb1.jpg"></div>
+                            <h2>맛나요족발맛나요족발맛나요족</h2>
+                            <p>맛있는족발맛있는족발맛있는족발맛</p>
+                            <p>맛있는족발맛있는족발맛있는족발맛</p>
+                            <div class="ad_btn"><span class="blind">연결버튼</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rela_btn_box">
+	        <div class="btn_ad_qna"><a href="#" class="btn_white2">이전</a></div>
+	        <div class="btn_ad_add"><a href="#" class="btn_gray">다음</a></div>
+	    </div>
+    </div>
+</div>
+
+</body>
+</html>
