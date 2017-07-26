@@ -47,7 +47,7 @@ input::-webkit-input-placeholder{color:#303030; font-weight:normal; line-height:
 
 
 /* 하단 버튼 영역 */
-.fix_btn_box{position:fixed; bottom:0; left:0; width:100%; height:auto; padding:11px 8%; box-sizing:border-box; background:#f00; z-index:1000;}
+.fix_btn_box{position:fixed; bottom:0; left:0; width:100%; height:auto; padding:11px 8%; box-sizing:border-box; background:#eceff4;}
 .fix_btn_box .btn_ad_qna{float:left; width:44%; height:auto; padding-right:8px; box-sizing:border-box;}
 .fix_btn_box .btn_ad_qna a{display:block; width:100%; height:100%; padding:16px 0; font-size:15px; letter-spacing:-1px;}
 .fix_btn_box .btn_ad_add{float:left; width:56%; height:auto; padding-left:8px; box-sizing:border-box;}
